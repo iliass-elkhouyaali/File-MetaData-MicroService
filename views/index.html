@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>File Metadata Microservice</title>
+  <link rel="stylesheet" href="/public/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>📁 File Metadata Microservice</h1>
+    <p class="subheading">Upload a file and get its metadata</p>
+
+    <form action="/api/fileanalyse" method="POST" enctype="multipart/form-data" class="upload-box">
+      <label for="upfile" class="custom-file-input">
+        Choose a file
+        <input type="file" name="upfile" id="upfile" required />
+      </label>
+      <button type="submit">Upload</button>
+    </form>
+
+    <footer>
+      <p>Made with 💻 by iliass elkhouyaali</a></p>
+    </footer>
+  </main>
+</body>
+</html>
